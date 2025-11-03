@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Marque from './Marque';
 import NavTwo from './NavTwo';
 import { Outlet } from 'react-router';
+import Main from './Main';
 
 const Roots = () => {
     return (
@@ -10,7 +11,7 @@ const Roots = () => {
             <Navbar></Navbar>
             <Marque></Marque>
             <NavTwo></NavTwo>
-            <Outlet></Outlet>
+            <Main></Main>
         </div>
     );
 };
